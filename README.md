@@ -47,6 +47,11 @@ https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_t
 
 <img width="1398" height="552" alt="image" src="https://github.com/user-attachments/assets/389c77dc-4eac-4542-a633-1545fe052793" />
 
+**Composer Airflow Dev and Prod Details:**
+
+<img width="1918" height="328" alt="image" src="https://github.com/user-attachments/assets/4a1e43d4-7a6c-416d-a0de-37dd93f67987" />
+
+
 **DEV Serverless Dataproc Cluster Log Details:**
 
 <img width="1380" height="642" alt="image" src="https://github.com/user-attachments/assets/7b504007-395f-4847-bff7-fb092e030be9" />
