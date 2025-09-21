@@ -1,7 +1,7 @@
 {
     "env": "prod",
     "gcs_bucket": "de_airflow_project",
-    "bq_project": "constant-grove-472014-c1",
+    "bq_project": "XXXX",
     "bq_dataset": "flight_data_prod",
     "tables": {
       "transformed_table": "transformed_flight_data_prod",
