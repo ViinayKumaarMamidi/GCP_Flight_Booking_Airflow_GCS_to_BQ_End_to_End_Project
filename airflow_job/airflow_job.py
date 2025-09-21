@@ -23,15 +23,11 @@ with DAG(
 ) as dag:
 
 
-#  # gs://de_airflow_project/source-dev/flight_booking.csv
-# # constant-grove-472014-c1
-# # flight_data_dev and flight_data_prod
-
     # Fetch environment variables
 
     env = Variable.get("env", default_var="dev")
     gcs_bucket = Variable.get("gcs_bucket", default_var="de_airflow_project")
-    bq_project = Variable.get("bq_project", default_var="constant-grove-472014-c1")
+    bq_project = Variable.get("bq_project", default_var="XXXX")
     bq_dataset = Variable.get("bq_dataset", default_var=f"flight_data_{env}")
     tables = Variable.get("tables", deserialize_json=True)
 
@@ -74,9 +70,9 @@ with DAG(
         },
         "environment_config": {
             "execution_config": {
-                "service_account": "12172439369-compute@developer.gserviceaccount.com",
-                "network_uri": "projects/constant-grove-472014-c1/global/networks/default",
-                "subnetwork_uri": "projects/constant-grove-472014-c1/regions/us-east1/subnetworks/default",
+                "service_account": "XXXX",
+                "network_uri": "projects/XXXX/global/networks/default",
+                "subnetwork_uri": "projects/XXXX/regions/us-east1/subnetworks/default",
             }
         },
     }
@@ -85,7 +81,7 @@ with DAG(
         task_id="run_spark_job_on_dataproc_serverless",
         batch=batch_details,
         batch_id=batch_id,
-        project_id="constant-grove-472014-c1",
+        project_id="XXXX",
         region="us-east1",
         gcp_conn_id="google_cloud_default",
     )
