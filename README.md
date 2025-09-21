@@ -16,6 +16,23 @@ Created Data Pipeline to load flight booking CSV file in GCS bucket and using Gi
 
 **Source Flight Booking CSV File URL:**
 
+https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_to_End_Project/blob/main/flight_booking.csv
+
+**Airflow DAG File URL:**
+
+https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_to_End_Project/blob/main/airflow_job/airflow_job.py
+
+**Pyspark File URL:**
+
+https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_to_End_Project/blob/main/spark_job/spark_transformation_job.py
+
+**DEV Variables JSON File Details:**
+
+https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_to_End_Project/blob/main/variables/dev/variables.json
+
+**PROD Variables JSON File Details:**
+
+https://github.com/ViinayKumaarMamidi/GCP_Flight_Booking_Airflow_GCS_to_BQ_End_to_End_Project/blob/main/variables/prod/variables.json
 
 
 **Source GCS Bucket Files:**
